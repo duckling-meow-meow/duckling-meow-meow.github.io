@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[写作格式]]></title>
     <url>%2F2019%2F06%2F05%2F%E5%86%99%E4%BD%9C%E6%A0%BC%E5%BC%8F%2F</url>
-    <content type="text"><![CDATA[冒号、短横都使用英文符号，他们后面的空格不要省略。总之，尽量保持规范。 尝试的时候发现好像只有第一次的时候使用中文符号会使格式出错，后面我再修改都不影响了，反正以后都写英文符号就是了。]]></content>
+    <content type="text"><![CDATA[冒号、短横都使用英文符号，他们后面的空格不要省略。总之，尽量保持规范。 尝试的时候发现好像只有第一次的时候使用中文符号会使格式出错，后面我再修改都不影响了，反正以后都写英文符号就是了。 图片放大功能测试 document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
       <categories>
         <category>Hexo</category>
         <category>Hello</category>
@@ -16,7 +16,7 @@
   <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2019%2F06%2F04%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
       <categories>
         <category>Hexo</category>
         <category>Hello</category>
