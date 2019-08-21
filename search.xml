@@ -25,7 +25,7 @@
   <entry>
     <title><![CDATA[二叉树的数字特征]]></title>
     <url>%2F2019%2F08%2F15%2F%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%95%B0%E5%AD%97%E7%89%B9%E5%BE%81%2F</url>
-    <content type="text"><![CDATA[各种节点个数问题。 深度为k的节点至多有2^k^个； ​ 不难理解。 含n个节点，高度为h的二叉树中节点总数h { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+    <content type="text"><![CDATA[各种节点个数问题。 深度为k的节点至多有2k个； ​ 不难理解。 含n个节点，高度为h的二叉树中节点总数h { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
       <categories>
         <category>数据结构</category>
         <category>二叉树</category>

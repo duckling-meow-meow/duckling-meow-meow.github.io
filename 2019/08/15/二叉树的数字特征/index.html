@@ -145,12 +145,12 @@
 <meta property="og:site_name" content="Icy Jane blog">
 <meta property="og:description" content="各种节点个数问题。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="c:%5CUsers%5C19172%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1566371220826.png">
-<meta property="og:updated_time" content="2019-08-21T07:35:50.565Z">
+<meta property="og:image" content="https://i.ibb.co/v1fp9Nk/QQ-20190821150553.png">
+<meta property="og:updated_time" content="2019-08-21T07:50:53.336Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="二叉树的数字特征">
 <meta name="twitter:description" content="各种节点个数问题。">
-<meta name="twitter:image" content="c:%5CUsers%5C19172%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1566371220826.png">
+<meta name="twitter:image" content="https://i.ibb.co/v1fp9Nk/QQ-20190821150553.png">
 
 
 
@@ -494,7 +494,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-08-21 07:35:50" itemprop="dateModified" datetime="2019-08-21T07:35:50Z">2019-08-21</time>
+                <time title="修改时间：2019-08-21 07:50:53" itemprop="dateModified" datetime="2019-08-21T07:50:53Z">2019-08-21</time>
               
             
           </span>
@@ -581,26 +581,26 @@
 <a id="more"></a>
 
 <ol>
-<li><p>深度为k的节点至多有2^k^个；</p>
+<li><p>深度为k的节点至多有2<sup>k</sup>个；</p>
 <p>​        不难理解。</p>
 <hr>
 </li>
-<li><p>含n个节点，高度为h的二叉树中节点总数h<n<2^h+1^;< p>
+<li><p>含n个节点，高度为h的二叉树中节点总数h<n<2<sup>h+1;</n<2<sup></p>
 <p>​        注：空树的高度是-1，只有一个根节点的树高度是0。那么n=h+1时退化为一条链，n=2^h+1^则为满二叉树。</p>
 <hr>
-</n<2^h+1^;<></p></li>
+</li>
 <li><p>设度数为0,1,2的节点各有n<sub>0</sub>,n<sub>1</sub>,n<sub>2</sub>个，边数=n-1=n<sub>1</sub>+2n<sub>2</sub>;</p>
 <p>​        n-1是因为除了根节点以外，每一个节点都对应了一条边；n<sub>1</sub>+2n<sub>2</sub>则不难理解。</p>
 <hr>
 </li>
 <li><p>设度数为0,2的节点各有n<sub>0</sub>,n<sub>2</sub>个，则叶节点数n<sub>0</sub>=n<sub>2</sub>+1; </p>
-<p>​        用数学归纳法证明。在n=1的时候显然成立，假设在n<del>2</del>=m-1的时候成立，接下来我们证明n<del>2</del>=m的时候结论成立。</p>
-<p>​        n<del>2</del>=m的树相对于n<del>2</del>=m-1的树即新增了一个2度节点，为了新增一个2度节点，我们就要增添原来度为0或1的节点的孩子，所以按照增添叶节点所属父节点的性质不同分为两种情况：父节点原来是叶节点；父节点原来只有一个孩子。</p>
+<p>​        用数学归纳法证明。在n=1的时候显然成立，假设在n<sub>2</sub>=m-1的时候成立，接下来我们证明n<del>2</del>=m的时候结论成立。</p>
+<p>​        n<sub>2</sub>=m的树相对于n<sub>2</sub>=m-1的树即新增了一个2度节点，为了新增一个2度节点，我们就要增添原来度为0或1的节点的孩子，所以按照增添叶节点所属父节点的性质不同分为两种情况：父节点原来是叶节点；父节点原来只有一个孩子。</p>
 <p>​        为了便于理解，我们以m-1=2，m=3的情况为例，作图示意。</p>
-<p>​        <img src="C:%5CUsers%5C19172%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1566371220826.png" alt="1566371220826"></p>
+<p><img src="https://i.ibb.co/v1fp9Nk/QQ-20190821150553.png" alt="n=2到n=3"></p>
 <p>​        可见，第一种情况原叶节点个数不变的基础上增添了一个叶节点，总体是增加了一个叶节点；第二种情况原叶节点的个数减少了一个的基础上增添了两个叶节点，总体还是增加了一个叶节点。</p>
-<p>​        所以从n<del>2</del>=m-1到n<del>2</del>=m2度节点和叶节点都是增加了一个，即n<del>2</del>=m时结论成立。</p>
-<p>​        注：其实从n<del>2</del>=m-1的树变化到n<del>2</del>=m的树不止这两种情况，还可以在继续向下添加无数个度为1的节点，但是本质不变，所以不用另作讨论。</p>
+<p>​        所以从n<sub>2</sub>=m-1到n<sub>2</sub>=m2度节点和叶节点都是增加了一个，即n<sub>2</sub>=m时结论成立。</p>
+<p>​        注：其实从n<sub>2</sub>=m-1的树变化到n<sub>2</sub>=m的树不止这两种情况，还可以在继续向下添加无数个度为1的节点，但是本质不变，所以不用另作讨论。</p>
 <hr>
 </li>
 <li><p>节点数n=n<sub>0</sub>+n<sub>1</sub>+n<sub>2</sub>=1+n<sub>1</sub>+2n<sub>2</sub>;</p>
@@ -609,7 +609,7 @@
 </li>
 <li><p>满二叉树，内部节点总数+1=叶节点总数；</p>
 <p>​        得结论4.自然得结论6，因为满二叉树内部节点都是2度节点。</p>
-<p>​        或者使用数列求和的方法证明，因为我们知道每一层节点的个数，即第k层有2^k^个节点。</p>
+<p>​        或者使用数列求和的方法证明，因为我们知道每一层节点的个数，即第k层有2<sup>k</sup>个节点。</p>
 </li>
 </ol>
 <script>
